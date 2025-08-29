@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcf7219bab7fe46a1ad266029b2fee19, type: 3}
+  m_Name: Readme
+  m_EditorClassIdentifier: 
+  Icon: {fileID: 2800000, guid: d285aeec8b0ca59488b08a441107f32b, type: 3}
+  Title: Unity Core Utilities
+  Sections:
+  - Heading: Overview
+    Text: 'A comprehensive collection of robust, modular, and easy to extend and
+      use for Unity. This package provides the foundational architecture for any
+      game genre, featuring a data-driven core, performance-oriented pooling, a powerful
+      procedural animation system, and more.
+
+
+
+      This is not a standalone game
+      but a library of core systems. For examples of real-world implementation, see
+      the main project <b>Unity FPS Foundation</b>.'
+    LinkText:
+    - Unity Core Utilities (GitHub)
+    - Unity FPS Foundation (GitHub)
+    Url:
+    - https://github.com/fuchsteufelswild/Unity-Core-Utilities
+    - https://github.com/fuchsteufelswild/Unity-FPS-Foundation
+  - Heading: Features
+    Text: "\n<b>Data Architecture</b>\n\nType-safe, ID-based system for defining
+      game data (e.g. Items, Surfaces, Categories) with automatic unique IDs, centralized
+      registries, and robust references for safe querying and inspector integration.\n\n<b>Object
+      Pooling</b>\n\nHigh-performance pooling for both C# objects and Unity GameObjects,
+      with zero-intrusion design, scene-aware pooling, and lifecycle event hooks
+      for easy integration.\n\n<b>Procedural Animation System</b>\n\nPhysics-based
+      motion system using damped springs and force curves to create smooth, dynamic
+      animations for cameras, UI, and FPS characters, with data-driven blending for
+      game-state-dependent motions.\n\n<b>Input System</b>\n\nAbstraction layer over
+      Unity\u2019s Input System, providing modular InputHandlers, profiles for context
+      switching (gameplay, UI, building), and a centralized module for stack-based
+      cancel actions.\n\n<b>Saving & Loading System</b>\n\nFlexible save solution
+      with prefab instantiation, dual GUID tracking, and support for complex hierarchies.
+      Includes prefab registry, split metadata/scene data, and full ISaveable component
+      support.\n\n<b>Post-Processing Animation System</b>\n\nFramework for animating
+      Unity Post-Processing parameters (e.g. Depth of Field, Vignette) via presets
+      and pooled animators, enabling dynamic gameplay-driven visual effects.\n\n<b>General
+      Utilities</b>\n\nA toolkit of reusable systems including singleton-style GameModules,
+      saved Options, parent-child behavior lookups, math/physics extensions, pooled
+      audio management, and editor helpers."
+    LinkText: []
+    Url: []
+  LoadedLayout: 0
